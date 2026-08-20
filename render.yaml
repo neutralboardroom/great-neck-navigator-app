@@ -1,0 +1,60 @@
+services:
+  - type: web
+    name: great-neck-navigator-app
+    runtime: node
+    plan: free
+    region: virginia
+    branch: main
+    autoDeploy: true
+    buildCommand: node scripts/unpack-release.mjs
+    startCommand: cd .render-source/great-neck-navigator-v0.10.0 && npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: GREAT_NECK_NAVIGATOR_PRODUCTION_MODE
+        value: "1"
+      - key: GREAT_NECK_NAVIGATOR_DEPLOYED_RUNTIME
+        value: "YES"
+      - key: GREAT_NECK_NAVIGATOR_REPOSITORY
+        value: "neutralboardroom/great-neck-navigator-app"
+      - key: GREAT_NECK_SOURCE_TREE_SHA256
+        value: "1260d05a186ea9b9441f5c431ab4317d203c7dd558600c0bc88ea1f193cf538b"
+      - key: PUBLIC_BRAND_NAME
+        value: "Great Neck Navigator"
+      - key: PUBLIC_CANONICAL_ORIGIN
+        value: "https://greatnecknavigator.org"
+      - key: LIVE_PROFILE_PUBLICATION_ENABLED
+        value: "YES"
+      - key: PUBLIC_INDEXING_ENABLED
+        value: "NO"
+      - key: PUBLIC_PROFILE_INDEXING_ENABLED
+        value: "NO"
+      - key: LIVE_COMMERCE_ENABLED
+        value: "NO"
+      - key: LIVE_OUTREACH_ENABLED
+        value: "NO"
+      - key: PRODUCTION_MEMBER_CARE_EMAIL_ENABLED
+        value: "NO"
+      - key: EXTERNAL_AI_ENABLED
+        value: "NO"
+      - key: LIVE_LOCAL_OPPORTUNITY_ROUTING_ENABLED
+        value: "NO"
+      - key: LIVE_LOCAL_OFFER_INGESTION_ENABLED
+        value: "NO"
+      - key: LIVE_COMMUNITY_POSTING_ENABLED
+        value: "NO"
+      - key: LIVE_MEMBER_EVENT_REGISTRATION_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_GROWTH_OFFICE_EXTERNAL_ACTIONS_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_MEMBER_BOOST_PUBLISHING_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_MEMBER_REFERRAL_DELIVERY_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_NOTICE_FEEDS_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_MEMBER_ACQUISITION_OUTREACH_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_PROFILE_FACTORY_SYNC_ENABLED
+        value: "NO"
+      - key: LIVE_GREAT_NECK_MEMBER_SIGN_RENDERING_ENABLED
+        value: "NO"

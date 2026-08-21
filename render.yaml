@@ -17,7 +17,7 @@ services:
       - key: GREAT_NECK_NAVIGATOR_REPOSITORY
         value: "neutralboardroom/great-neck-navigator-app"
       - key: GREAT_NECK_SOURCE_TREE_SHA256
-        value: "d935d058629e48cdd1e6d5f9541b7c9f8eafcad822166387e9420d22922271dc"
+        value: "fc029088a5ebe37e5b4380aba317a21707dd467127687d02ce6a35aa31b8a7e1"
       - key: GREAT_NECK_NAVIGATOR_RELEASE
         value: "0.16.0"
       - key: PUBLIC_BRAND_NAME

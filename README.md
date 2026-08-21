@@ -1,33 +1,31 @@
 # Great Neck Navigator
 
-Great Neck Navigator is its own hyperlocal community, professional-directory, membership, and local-opportunity product.
+Great Neck Navigator is its own hyperlocal community, professional-directory, membership, local-opportunity, and community-participation product.
 
-## Current deployment candidate
+## Current qualified deployment candidate
 
-**Great Neck Navigator v0.16.0 / GN-NAV16.0**
+**Great Neck Navigator v0.18.0 / GN-NAV18.0**
 
-Upload the exact qualified v0.16 GitHub deployment ZIP to the repository root **without unzipping or renaming it**. The repository bootstrap verifies its SHA-256, rejects unsafe ZIP paths and identity drift, safely unpacks it, runs the carrier's embedded Great Neck release gate, and starts the extracted Great Neck deployment root.
+This is the convergence release. It preserves the complete qualified v0.16 line as its no-loss predecessor and merges forward the qualified v0.17 Community Value Loop, member-success, local-opportunity-fairness, event-studio, feedback, geography-truth, and community-learning capabilities. It does not adopt v0.17's stale PF0.12/SCCC0.11 authority line.
 
-Expected carrier:
+Upload this exact carrier to the repository root without unzipping or renaming it:
 
-`GREAT_NECK_NAVIGATOR__GITHUB_DEPLOY__V0.16.0_GN-NAV16.0__SCCC0.12_UEC1.10_REVENUE_ENGINE0.3_PF0.14__UPLOAD_THIS_ZIP.zip`
+`GREAT_NECK_NAVIGATOR__GITHUB_DEPLOY__V0.18.0_GN-NAV18.0__SCCC0.12_UEC1.10_REVENUE_ENGINE0.3_PF0.14__UPLOAD_THIS_ZIP.zip`
 
-Expected carrier SHA-256:
+The bootstrap rejects unsafe, encrypted, duplicate, symbolic-link, oversized, ZIP64, wrong-root, and wrong-identity carriers; recomputes the embedded canonical source tree; verifies the qualified Great Neck release identities and authority boundaries; runs the complete embedded release gate; and only then starts the extracted deployment root. Compare the computed carrier SHA-256 in the build log with the qualified `GREAT_NECK_NAVIGATOR__V0.18.0_GN-NAV18.0__SHA256SUMS__2026-08-21.txt` supplied with the release.
 
-`9cb16653449af7ec7050e4367bb5c4911ac112b8ead6b4e4179dc5f96d2a00be`
+Current counterparts and truth:
 
-Expected app source-tree SHA-256:
+- Profile Factory: **GN-PF-0.14.0** — 2,473 canonical records, 2,414 resident-facing listings, 59 qualification-held, 82 explicitly unclaimed, and 2,332 claim states unknown rather than inferred.
+- Coordination: **SCCC v0.12.0 / SCCC12.0 / UEC-1.10**, coordination only.
+- Shared revenue donor: qualified **SMARTER Revenue Engine v0.3.0**, with no Great Neck execution authority.
+- Public use: free.
+- Optional business membership: exactly **$10/month**.
+- Free basic profile claim, correction, and suppression remain available without payment.
+- Payment does not buy verification, factual accuracy, claim authority, endorsement, ratings, guaranteed customers, or resident preference.
 
-`fc029088a5ebe37e5b4380aba317a21707dd467127687d02ce6a35aa31b8a7e1`
+The release adds a unified Community Value Center, Member Success Workspace, Community Event Studio, Community Feedback Workspace, four-tier geography truth, fair local-opportunity rules, retained-value planning, and eleven connected community-value capabilities.
 
-Current coordination layer: **SMARTER Core Coordination Center v0.12.0 / SCCC12.0 / UEC-1.10**, through sequence 106. It coordinates but does not own Great Neck pricing, customers, claims, payments, outreach, listings, or deployment.
+Current launch truth: source and carrier are qualified, but the exact carrier must still be committed before a separate Great Neck Navigator Render service can be created and verified. The universal Smarter Navigator Render service is not Great Neck deployment authority.
 
-The qualified separate **SMARTER Revenue Engine v0.3.0** is an offline shared acquisition/revenue/retention donor. It has no Great Neck execution authority and opens no live effects.
-
-The separate Great Neck Navigator Profile Factory counterpart is **GN-PF-0.14.0** with 2,473 canonical records, 2,414 resident-facing listings, and 59 qualification-held records. Great Neck preserves 82 explicit unclaimed states and leaves the other 2,332 claim states unknown rather than inferred.
-
-The optional business membership remains exactly **$10/month**. Public use is free, and free basic profile, claim, correction, and suppression remain available. Payment does not buy verification, ratings, factual accuracy, endorsement, claim authority, or trust.
-
-Current launch truth: the exact v0.16 source and carrier are qualified, but the carrier still must be committed to this repository and a **separate Great Neck Navigator Render service** must then be created and verified. The universal Smarter Navigator Render service is not Great Neck deployment authority.
-
-All external live-action flags remain closed. Synthetic Stripe rehearsal is not provider-native Stripe proof, and no prospect is authorized for contact merely by appearing in a source-backed sales cohort.
+All external live-action flags remain closed. Synthetic Stripe rehearsal is not provider-native Stripe proof. No prospect is authorized for contact merely by appearing in a source-backed cohort. Live payments, outreach, community posting, reviews, messaging, event registration, opportunity routing, and Profile Factory synchronization require separate production evidence and authorization.

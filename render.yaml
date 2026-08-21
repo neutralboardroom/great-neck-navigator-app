@@ -7,7 +7,7 @@ services:
     branch: main
     autoDeploy: true
     buildCommand: node scripts/unpack-release.mjs
-    startCommand: cd .render-source/great-neck-navigator-v0.15.0 && npm start
+    startCommand: cd .render-source/great-neck-navigator-v0.16.0 && npm start
     healthCheckPath: /healthz
     envVars:
       - key: GREAT_NECK_NAVIGATOR_PRODUCTION_MODE
@@ -17,11 +17,15 @@ services:
       - key: GREAT_NECK_NAVIGATOR_REPOSITORY
         value: "neutralboardroom/great-neck-navigator-app"
       - key: GREAT_NECK_SOURCE_TREE_SHA256
-        value: "7734fc42164a5de905ebc5d322fa16b14e614faddb6c12c787a7de1bd8db5fc0"
+        value: "d935d058629e48cdd1e6d5f9541b7c9f8eafcad822166387e9420d22922271dc"
+      - key: GREAT_NECK_NAVIGATOR_RELEASE
+        value: "0.16.0"
       - key: PUBLIC_BRAND_NAME
         value: "Great Neck Navigator"
       - key: PUBLIC_CANONICAL_ORIGIN
         value: "https://greatnecknavigator.org"
+      - key: TEMPORARY_PROFILE_REVIEW_ENABLED
+        value: "NO"
       - key: LIVE_PROFILE_PUBLICATION_ENABLED
         value: "NO"
       - key: PUBLIC_INDEXING_ENABLED
@@ -35,6 +39,8 @@ services:
       - key: PRODUCTION_MEMBER_CARE_EMAIL_ENABLED
         value: "NO"
       - key: EXTERNAL_AI_ENABLED
+        value: "NO"
+      - key: MLS_LISTINGS_ENABLED
         value: "NO"
       - key: LIVE_LOCAL_OPPORTUNITY_ROUTING_ENABLED
         value: "NO"

@@ -17,13 +17,13 @@ services:
       - key: GREAT_NECK_NAVIGATOR_REPOSITORY
         value: "neutralboardroom/great-neck-navigator-app"
       - key: GREAT_NECK_SOURCE_TREE_SHA256
-        value: "1260d05a186ea9b9441f5c431ab4317d203c7dd558600c0bc88ea1f193cf538b"
+        value: "d0449e14f2d00f69bbba6a40d39fee1625fdafa56d160afe608089da32f08558"
       - key: PUBLIC_BRAND_NAME
         value: "Great Neck Navigator"
       - key: PUBLIC_CANONICAL_ORIGIN
         value: "https://greatnecknavigator.org"
       - key: LIVE_PROFILE_PUBLICATION_ENABLED
-        value: "YES"
+        value: "NO"
       - key: PUBLIC_INDEXING_ENABLED
         value: "NO"
       - key: PUBLIC_PROFILE_INDEXING_ENABLED

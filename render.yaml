@@ -18,6 +18,8 @@ services:
         value: "neutralboardroom/great-neck-navigator-app"
       - key: GREAT_NECK_NAVIGATOR_RELEASE
         value: "0.18.0"
+      - key: GREAT_NECK_SOURCE_TREE_SHA256
+        value: "8f2201a29dec0700c03acce3c957337888ab01eca9fcddeaf6b5d07c449b6acb"
       - key: PUBLIC_BRAND_NAME
         value: "Great Neck Navigator"
       - key: PUBLIC_CANONICAL_ORIGIN

@@ -7,7 +7,7 @@ services:
     branch: main
     autoDeploy: true
     buildCommand: node scripts/unpack-release.mjs
-    startCommand: cd .render-source/great-neck-navigator-v0.10.0 && npm start
+    startCommand: cd .render-source/great-neck-navigator-v0.11.0 && npm start
     healthCheckPath: /healthz
     envVars:
       - key: GREAT_NECK_NAVIGATOR_PRODUCTION_MODE
@@ -17,7 +17,7 @@ services:
       - key: GREAT_NECK_NAVIGATOR_REPOSITORY
         value: "neutralboardroom/great-neck-navigator-app"
       - key: GREAT_NECK_SOURCE_TREE_SHA256
-        value: "d0449e14f2d00f69bbba6a40d39fee1625fdafa56d160afe608089da32f08558"
+        value: "d32c38f370425bf2c42f0484011629b98994ad498e447683108d5fd9f358f718"
       - key: PUBLIC_BRAND_NAME
         value: "Great Neck Navigator"
       - key: PUBLIC_CANONICAL_ORIGIN
